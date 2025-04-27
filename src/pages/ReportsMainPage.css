@@ -1,0 +1,95 @@
+/* Main container */
+.report-main {
+    padding: 2rem 5rem;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+/* Top section with title + new report button */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.top-bar h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.top-bar p {
+    color: #6b7280;
+    font-size: 0.95rem;
+}
+
+.new-report-btn {
+    background-color: #0080FF;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.new-report-btn:hover {
+    background-color: #0080FF;
+}
+
+/* Map section */
+.map-section {
+    margin-bottom: 2.5rem;
+}
+
+.map-placeholder {
+    width: 200px;
+    height: 250px;
+    border-radius: 12px;
+    background-color: #f3f4f6;
+    border: 1px dashed #d1d5db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6b7280;
+    font-style: italic;
+    overflow: hidden;
+    margin-top: 1rem;
+    /* 🟢 ensures map starts after top-bar */
+    margin-bottom: 2rem;
+    /* 🟢 spacing before reports section */
+}
+
+/* Reports section */
+.reports-section {
+    margin-bottom: 3rem;
+}
+
+.reports-section h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.reports-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+/* Load more button */
+.load-more-btn {
+    margin-top: 2rem;
+    background: none;
+    border: none;
+    color: #4f46e5;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 0.95rem;
+}
+
+.load-more-btn:hover {
+    text-decoration: underline;
+}

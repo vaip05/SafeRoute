@@ -1,0 +1,114 @@
+/* Layout */
+.home-container {
+    display: flex;
+    height: 100vh;
+}
+
+.map-container {
+    width: 70%;
+    height: 100%;
+    position: relative;
+    background-color: #f5f5f5;
+
+}
+
+.sidebar-container {
+    width: 30%;
+    height: 100%;
+    background-color: #ffffff;
+    padding: 24px;
+    overflow-y: auto;
+    box-shadow: -2px 0 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Input and Button styles */
+.input-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: white;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box {
+    padding: 10px;
+    margin-bottom: 12px;
+    width: 250px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.find-route-button,
+.start-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0080FF;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 8px;
+}
+
+.find-route-button:hover,
+.start-button:hover {
+    background-color: #45a049;
+}
+
+/* Sidebar Title */
+.sidebar-title-bold {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 24px;
+}
+
+/* Route Cards */
+.route-card {
+    padding: 16px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    color: black;
+    /* ✅ Force text color to black */
+}
+
+/* Hover effect on cards */
+.route-card:hover {
+    transform: scale(1.02);
+}
+
+/* Color-coded cards */
+.green-card {
+    background-color: #e6f9e6;
+    /* Light Green */
+}
+
+.yellow-card {
+    background-color: #fff9db;
+    /* Light Yellow */
+}
+
+.red-card {
+    background-color: #ffe6e6;
+    /* Light Red */
+}
+
+.feedback-section {
+    position: sticky;
+    bottom: 24px;
+    background: white;
+    margin-bottom: 20px;
+    margin-top: 0px;
+
+}

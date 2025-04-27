@@ -1,0 +1,275 @@
+/* GENERAL LAYOUT */
+.sos-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    color: #1f2937;
+    background: linear-gradient(to bottom, #f8fafc, #f1f5f9);
+}
+
+/* HERO SECTION */
+.sos-hero {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 3rem 2rem;
+    align-items: flex-start;
+}
+
+.sos-hero-left {
+    flex: 1;
+    min-width: 280px;
+    padding-right: 2rem;
+}
+
+.sos-hero-left h1 {
+    font-size: 2.75rem;
+    color: #DC2626;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.sos-hero-left h2 {
+    font-size: 1.5rem;
+    color: #1f2937;
+    margin-bottom: 1rem;
+}
+
+.sos-hero-left p {
+    font-size: 1rem;
+    color: #374151;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+.firetruck-img {
+    max-width: 280px;
+    margin: 1.5rem auto 2rem auto;
+    display: block;
+}
+
+/* EMERGENCY CARDS */
+.sos-cards-column {
+    flex: 1;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.sos-card {
+    background: white;
+    border-left: 6px solid #fca5a5;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+    padding: 1.5rem;
+    border-radius: 10px;
+    transition: all 0.25s ease;
+    position: relative;
+}
+
+.sos-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.sos-card h3 {
+    color: #b91c1c;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.sos-card p {
+    margin: 0.5rem 0;
+    font-size: 0.95rem;
+    color: #374151;
+}
+
+.copy {
+    margin-left: 10px;
+    cursor: pointer;
+    color: #6b7280;
+    font-size: 0.9rem;
+    transition: color 0.2s ease;
+}
+
+.copy:hover {
+    color: #0080FF;
+}
+
+.sos-card a {
+    display: inline-block;
+    margin-top: 0.75rem;
+    color: #0080FF;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.sos-card a:hover {
+    text-decoration: underline;
+}
+
+/* FAQ SECTION */
+.sos-faq {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.sos-faq h2 {
+    font-size: 1.9rem;
+    color: #0080FF;
+    margin-bottom: 2rem;
+}
+
+.faq-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.faq-card {
+    background: white;
+    border-radius: 10px;
+    max-width: 400px;
+    padding: 1.5rem;
+    text-align: left;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s ease;
+}
+
+.faq-card:hover {
+    transform: translateY(-4px);
+}
+
+.faq-card h4 {
+    font-size: 1rem;
+    color: #111827;
+    margin-bottom: 0.5rem;
+}
+
+.faq-card p {
+    font-size: 0.95rem;
+    color: #4b5563;
+}
+
+/* ADDITIONAL RESOURCES */
+.sos-additional {
+    background-color: #f9fafb;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.sos-additional h2 {
+    font-size: 1.75rem;
+    color: #0080FF;
+    margin-bottom: 2rem;
+}
+
+.additional-resources {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.additional-card {
+    background-color: white;
+    border-left: 5px solid #fde68a;
+    border-radius: 10px;
+    padding: 1.5rem;
+    max-width: 350px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    text-align: left;
+    transition: transform 0.2s ease;
+}
+
+.additional-card:hover {
+    transform: translateY(-4px);
+}
+
+.additional-card h4 {
+    margin-bottom: 0.5rem;
+    color: #b91c1c;
+}
+
+.additional-card p {
+    margin-bottom: 0.5rem;
+    color: #374151;
+    font-size: 0.95rem;
+}
+
+.additional-card a {
+    color: #0080FF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.additional-card a:hover {
+    text-decoration: underline;
+}
+
+/* CLOSING CALL TO ACTION */
+.sos-ending {
+    padding: 3rem 2rem;
+    text-align: center;
+    background: linear-gradient(to bottom, #f9fafb, #f1f5f9);
+    margin-top: 2rem;
+}
+
+.sos-ending h2 {
+    font-size: 1.75rem;
+    color: #0080FF;
+    margin-bottom: 1rem;
+}
+
+.sos-ending p {
+    font-size: 1rem;
+    color: #374151;
+    margin-bottom: 1.5rem;
+    max-width: 600px;
+    margin: 0 auto 1.5rem;
+}
+
+.sos-cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.sos-cta-buttons button {
+    background-color: #0080FF;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.sos-cta-buttons button:hover {
+    background-color: #005ecf;
+    transform: scale(1.05);
+}
+
+/* FOOTER */
+.sos-footer {
+    background-color: #f0f4f8;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #6b7280;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 2rem;
+}
+
+.section-divider {
+    border: none;
+    height: 2px;
+    background-color: #e5e7eb;
+    margin: 0.5rem auto 1.5rem auto;
+    width: 60%;
+}
