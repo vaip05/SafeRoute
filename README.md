@@ -1,2 +1,2 @@
 # SafeRouteSJ
-A website that locates user with the safest root.
+A website that locates user with the safest route.
